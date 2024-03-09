@@ -1,0 +1,166 @@
+﻿store(&NAME) 'InScript (Simplified)'
+store(&TARGETS) 'windows macosx linux desktop'
+store(&KEYBOARDVERSION) '0.1'
+
+c comment these all out to go to design section
+store(svara) U+0904 .. U+0914
+store(vyanjan) U+0915 .. U+0939
+store(small_matraein) U+093F U+0941 U+0947 U+094B
+store(big_matraein) U+0940 U+0942 U+0948 U+094C
+store(matras) outs(small_matraein) outs(big_matraein)
+
+begin Unicode > use(main)
+
+c comment this out to go to design section
+group(checkMatra)
+  c Small to big, big to small matras
+  any(vyanjan) any(small_matraein) index(small_matraein, 2) > context(1) index(big_matraein, 2)
+  any(vyanjan) any(big_matraein) index(small_matraein, 2)> context(1) index(small_matraein, 2)
+  c same, but with anusvara
+  any(vyanjan) any(small_matraein) U+0902 index(small_matraein, 1) > context(1)   index(big_matraein, 1) U+0902
+  any(vyanjan) any(big_matraein) U+0902 index(small_matraein, 1)> context(1)   index(small_matraein, 1) U+0902
+  c same, but with nukta
+  any(vyanjan) U+093C any(small_matraein) index(small_matraein, 2) > context(1) U+093C index(big_matraein, 1)
+  any(vyanjan) U+093C any(big_matraein) index(small_matraein, 2)> context(1) U+093C index(small_matraein, 1)
+  c adding multiple aa matras has no effect
+  any(vyanjan) U+093E U+093E > context(1) U+093E
+  c ा + ॅ -> ॉ (aa + chandra -> dr. o, i.e. o in doctor)
+  U+093E U+0945 > U+0949
+  c builds on previous rule, to get chandrabindu on aa
+  U+0949 U+0902 > U+093E U+0901
+  c same, but other way
+  U+093E U+0902 U+0945 > U+093E U+0901
+  U+0902 U+0902 > U+093C c anusvara to nukta
+  U+093C U+093C > U+0902 c nukta to anusvara
+  c halant on halant removes the original halant, making it a live consonant.
+  U+094D U+094D > nul
+  c no char behind, add full svara.
+  nul U+094D > U+0905 c a
+  nul U+093E > U+0906 c aa
+  nul U+093F > U+0907 c i
+  nul U+0941 > U+0909 c u
+  nul U+0947 > U+090F c e
+  nul U+094B > U+0913 c o
+  c svara behind, add full svara.
+  any(svara) U+094D > context(1) U+0905 c a
+  any(svara) U+093E > context(1) U+0906 c aa
+  any(svara) U+093F > context(1) U+0907 c i
+  any(svara) U+0941 > context(1) U+0909 c u
+  any(svara) U+0947 > context(1) U+090F c e
+  any(svara) U+094B > context(1) U+0913 c o
+  c when at start of new word in sentence
+  U+0020 U+094D > U+0020 U+0905 c a
+  U+0020 U+093E > U+0020 U+0906 c aa
+  U+0020 U+093F > U+0020 U+0907 c i
+  U+0020 U+0941 > U+0020 U+0909 c u
+  U+0020 U+0947 > U+0020 U+090F c e
+  U+0020 U+094B > U+0020 U+0913 c o
+  c any(matras) any(matras) >
+  c small svara <-> big svara
+  U+0905 U+093E > U+0906 c a -> aa
+  U+0907 U+093F > U+0908 c i -> ii
+  U+0909 U+0941 > U+090A c u -> uu
+  U+090F U+0947 > U+0910 c e -> ai
+  U+0913 U+094B > U+0914 c o -> au
+  U+0906 U+093E > U+0905 c aa -> a
+  U+0908 U+093F > U+0907 c ii -> i
+  U+090A U+0941 > U+0909 c uu -> u
+  U+0910 U+0947 > U+090F c ai -> e
+  U+0914 U+094B > U+0913 c au -> o
+  c ri matra
+  c U+090B U+094D > U+0943
+  c chandra to chandrabindu
+  any(vyanjan) U+0945 U+0902 > context(1) U+0901
+  any(svara) U+0945 U+0902 > context(1) U+0901
+  any(matras) U+0945 U+0902 > context(1) U+0901
+  any(vyanjan) U+0902 U+0945 > context(1) U+0901
+  any(svara) U+0902 U+0945 > context(1) U+0901
+  any(matras) U+0902 U+0945 > context(1) U+0901
+  c TODO: Check for matra behind to see if it is not
+
+group(main) using keys
++ [SHIFT K_V] > 'ऽ'
++ [SHIFT K_Z] > 'ॐ'
++ [SHIFT K_R] > 'ऋ'
++ [SHIFT K_M] > 'ङ'
++ [SHIFT K_Y] > 'ञ'
++ [SHIFT K_N] > 'ण'
++ [SHIFT K_X] > 'ठ'
++ [SHIFT K_O] > 'ओ'
++ [SHIFT K_I] > 'इ'
++ [SHIFT K_U] > 'उ'
+c + [SHIFT K_EQUAL] > '+'
+c + [SHIFT K_HYPHEN] > '-'
+c + [SHIFT K_BKSLASH] > '|'
+c + [SHIFT K_RBRKT] > '}'
+c + [SHIFT K_LBRKT] > '{'
+c + [SHIFT K_COMMA] > '<'
+c + [SHIFT K_PERIOD] > '>'
+c + [SHIFT K_SLASH] > '?'
+c + [SHIFT K_QUOTE] > '"'
+c + [SHIFT K_COLON] > ':'
++ [SHIFT K_L] > 'ळ'
++ [SHIFT K_E] > 'ए'
++ [SHIFT K_A] > 'अ'
++ [SHIFT K_D] > 'ढ'
++ [SHIFT K_H] > 'ष'
++ [SHIFT K_G] > 'घ'
++ [SHIFT K_S] > 'श'
++ [SHIFT K_F] > 'ध'
++ [SHIFT K_T] > 'थ'
++ [SHIFT K_P] > 'फ'
++ [SHIFT K_C] > 'छ'
++ [SHIFT K_B] > 'भ'
++ [SHIFT K_K] > 'ख'
++ [SHIFT K_J] > 'झ'
++ [K_C] > 'च'
++ [K_F] > 'द'
++ [K_T] > 'त'
+c + [K_COMMA] > ','
+c + [K_PERIOD] > '.'
+c + [K_COLON] > ';'
+c + [K_QUOTE] > U+0027
+c + [K_BKSLASH] > '\'
+c + [K_RBRKT] > ']'
+c + [K_LBRKT] > '['
++ [K_G] > 'ग'
++ [K_L] > 'ल'
+c + [K_SLASH] > '/'
++ [K_R] > 'र'
++ [K_P] > 'प'
++ [K_Y] > 'य'
++ [K_H] > 'ह'
++ [K_J] > 'ज'
++ [K_V] > 'व'
++ [K_B] > 'ब'
++ [K_N] > 'न'
++ [K_M] > 'म'
++ [K_K] > 'क'
++ [K_S] > 'स'
++ [K_X] > 'ट'
++ [K_D] > 'ड'
+
+c comment for design pane
++ [K_A] > 'ा' use(checkMatra)
++ [K_I] > 'ि' use(checkMatra)
++ [K_U] > 'ु' use(checkMatra)
++ [K_E] >   'े' use(checkMatra)
++ [K_O] > 'ो' use(checkMatra)
++ [K_W] > 'ं' use(checkMatra)
++ [K_Z] >  'ृ' use(checkMatra)
++ [K_Q] > 'ॅ' use(checkMatra)
++ [SHIFT K_W] > '़' use(checkMatra)
++ [SHIFT K_Q] > 'ः' use(checkMatra)
+
+any(vyanjan) + "`" > context U+094D
+
+c + [K_O] > 'ो' use(checkMatra)
+c + [K_U] > 'ु' use(checkMatra)
+c + [K_I] > 'ि' use(checkMatra)
+c + [K_Z] > 'ॅ' use(checkMatra)
+c + [K_E] > 'े' use(checkMatra)
+c + [K_D] > '्' use(checkMatra)
+c + [K_A] > 'ा' use(checkMatra)
+c + [K_W] > 'ं' use(checkMatra)
+c + [SHIFT K_W] > '़'use(checkMatra)
+c + [SHIFT K_Q] > 'ः' use(checkMatra)

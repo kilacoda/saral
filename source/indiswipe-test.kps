@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>17.0.270.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Name URL="">IndiSwipe</Name>
+    <Version URL=""></Version>
+    <Copyright URL="">©Raghav Goel</Copyright>
+    <Author URL="mailto:kilacoda@gmail.com">Raghav Goel</Author>
+  </Info>
+  <Files>
+    <File>
+      <Name>hindi.js</Name>
+      <Description>File hindi.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>hindi.keyman-touch-layout</Name>
+      <Description>File hindi.keyman-touch-layout</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.keyman-touch-layout</FileType>
+    </File>
+    <File>
+      <Name>hindi.kmn</Name>
+      <Description>File hindi.kmn</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmn</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-Black.ttf</Name>
+      <Description>Font Noto Sans Black</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-BlackItalic.ttf</Name>
+      <Description>Font Noto Sans Black Italic</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-Bold.ttf</Name>
+      <Description>Font Noto Sans Bold</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-BoldItalic.ttf</Name>
+      <Description>Font Noto Sans Bold Italic</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-ExtraBold.ttf</Name>
+      <Description>Font Noto Sans ExtraBold</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-ExtraBoldItalic.ttf</Name>
+      <Description>Font Noto Sans ExtraBold Italic</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-ExtraLight.ttf</Name>
+      <Description>Font Noto Sans ExtraLight</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-ExtraLightItalic.ttf</Name>
+      <Description>Font Noto Sans ExtraLight Italic</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-Italic.ttf</Name>
+      <Description>Font Noto Sans Italic</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-Light.ttf</Name>
+      <Description>Font Noto Sans Light</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-LightItalic.ttf</Name>
+      <Description>Font Noto Sans Light Italic</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-Medium.ttf</Name>
+      <Description>Font Noto Sans Medium</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-MediumItalic.ttf</Name>
+      <Description>Font Noto Sans Medium Italic</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-Regular.ttf</Name>
+      <Description>Font Noto Sans Regular</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-SemiBold.ttf</Name>
+      <Description>Font Noto Sans SemiBold</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-SemiBoldItalic.ttf</Name>
+      <Description>Font Noto Sans SemiBold Italic</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-Thin.ttf</Name>
+      <Description>Font Noto Sans Thin</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>NotoSans-ThinItalic.ttf</Name>
+      <Description>Font Noto Sans Thin Italic</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>OFL.txt</Name>
+      <Description>File OFL.txt</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>IndiSwipe Hindi</Name>
+      <ID>hindi</ID>
+      <Version>0.1</Version>
+      <Languages>
+        <Language ID="hi">Hindi</Language>
+      </Languages>
+      <Examples/>
+    </Keyboard>
+  </Keyboards>
+  <RelatedPackages/>
+  <Strings/>
+</Package>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>17.0.270.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>readme.htm</ReadMeFile>
+    <LicenseFile>..\LICENSE.md</LicenseFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion/>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Name URL="">Saral</Name>
+    <Copyright URL="">Copyright © Raghav Goel</Copyright>
+    <Author URL="">Raghav Goel</Author>
+    <Description URL="">Simple keyboard for Devanagari</Description>
+    <Version URL=""></Version>
+  </Info>
+  <Files>
+    <File>
+      <Name>..\build\saral.kmx</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>..\build\saral.js</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>..\build\saral.kvk</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>welcome.htm</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>..\LICENSE.md</Name>
+      <Description></Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.md</FileType>
+    </File>
+    <File>
+      <Name>hindi.js</Name>
+      <Description>File hindi.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>hindi.keyman-touch-layout</Name>
+      <Description>File hindi.keyman-touch-layout</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.keyman-touch-layout</FileType>
+    </File>
+    <File>
+      <Name>hindi.kmn</Name>
+      <Description>File hindi.kmn</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmn</FileType>
+    </File>
+    <File>
+      <Name>inscript_simple.kmn</Name>
+      <Description>File inscript_simple.kmn</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmn</FileType>
+    </File>
+    <File>
+      <Name>inscript_simple_v2.kmn</Name>
+      <Description>File inscript_simple_v2.kmn</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmn</FileType>
+    </File>
+    <File>
+      <Name>inscript_simple_v2.kmx</Name>
+      <Description>Keyboard InScript (Simplified)</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>Saral</Name>
+      <ID>saral</ID>
+      <Version>1.0</Version>
+      <Languages>
+        <Language ID="hi">Hindi</Language>
+      </Languages>
+      <Examples/>
+    </Keyboard>
+    <Keyboard>
+      <Name>IndiSwipe Hindi</Name>
+      <ID>hindi</ID>
+      <Version>0.1</Version>
+      <Languages/>
+      <Examples/>
+    </Keyboard>
+    <Keyboard>
+      <Name>InScript (Simplified)</Name>
+      <ID>inscript_simple_v2</ID>
+      <Version>0.1</Version>
+      <Languages/>
+      <Examples/>
+    </Keyboard>
+  </Keyboards>
+  <RelatedPackages/>
+  <Strings/>
+</Package>

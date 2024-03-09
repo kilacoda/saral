@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>17.0.283.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Name URL="">Barakhana</Name>
+  </Info>
+  <Files>
+    <File>
+      <Name>hindi.keyman-touch-layout</Name>
+      <Description>File hindi.keyman-touch-layout</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.keyman-touch-layout</FileType>
+    </File>
+    <File>
+      <Name>hindi.kmn</Name>
+      <Description>File hindi.kmn</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmn</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description>File readme.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>saral.ico</Name>
+      <Description>File saral.ico</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ico</FileType>
+    </File>
+    <File>
+      <Name>welcome.htm</Name>
+      <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>..\build\hindi.js</Name>
+      <Description>File hindi.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>IndiSwipe Hindi</Name>
+      <ID>hindi</ID>
+      <Version>0.1</Version>
+      <Languages>
+        <Language ID="hi">Hindi</Language>
+      </Languages>
+      <Examples/>
+    </Keyboard>
+  </Keyboards>
+  <RelatedPackages/>
+  <Strings/>
+</Package>

@@ -1,0 +1,14 @@
+﻿store(&NAME) 'InScript (Simplified)'
+store(&TARGETS) 'windows macosx linux desktop'
+store(&KEYBOARDVERSION) '0.1'
+begin Unicode > use(main)
+
+group(main) using keys
++ [K_X] > 'ृ'
++ [K_Z] > 'ॅ'
++ [K_E] > 'ं'
++ [K_D] > 'ु'
++ [K_S] > 'ि'
++ [K_A] > 'ा'
++ [K_W] > 'े'
++ [K_Q] > 'ो'

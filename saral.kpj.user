@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>1</tab>
+    <showhelp>1</showhelp>
+    <path>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\saral.kpj</path>
+    <file ID="id_38df852327d7e6e5359c05d71bb9de5f" Expanded="1"/>
+    <file ID="id_52de30e6583a9cbffe3939abedea8d49" Expanded="1"/>
+    <file ID="id_822c9e1fe7140c85016a305edaa0d9d7" Expanded="1"/>
+    <file ID="id_97249bf430bae80b264004bace8129e4" Expanded="1"/>
+    <file ID="id_ba1ad2e842994c1ef9ba8b3137abc796" Expanded="1"/>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\HISTORY.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\LICENSE.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\README.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_4b368a2f775df36bff4653a6589c662b</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\saral.kpj</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_9060e63deaafc81e1ad60267ffade8dc</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\saral.kpj.user</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_822c9e1fe7140c85016a305edaa0d9d7</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\barakhana.kps</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_9f886434c102c78f426ae4ebd365886a</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\hindi.js</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_483978d664cf4c396812a3d98877cc23</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\hindi.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_38df852327d7e6e5359c05d71bb9de5f</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\hindi.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>True</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_c49e214cbdc0fd807352a2f8c5da8e0e</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\hindi.txt</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_6e322b748287a2e83fbffaa927083cb5</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\indiswipe-test.kmp</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_97249bf430bae80b264004bace8129e4</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\indiswipe-test.kps</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_f1f0ebe39304f835c455729b3a23c967</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\inscript_simple.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_ee95818c2dbe39c30c51c3339efb3dba</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\inscript_simple_v2.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_5778521aaa092eb613ba01f544ca4952</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\inscript_simple_v2.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_386daa69d44f0d07dee186556924290f</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\korean_10_key_inspired.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_10001d77094d30fa93c75cd831956bbf</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\korean_10_key_inspired.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\readme.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_60a36f8cdaf34d8c7f4f40f0759f8ce6</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\saral.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_6fddd2c56516f7bd268c7e2d6f274c90</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\saral.keyman-touch-layout</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_52de30e6583a9cbffe3939abedea8d49</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\saral.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_ba1ad2e842994c1ef9ba8b3137abc796</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\saral.kps</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_e6d82a24a69909b1b8f623c6b3c7d451</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\saral.kvks</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_1729a670ab091daace3fda4cfde0f77c</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-Black.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_d6a2dec9684d41a1190e1d2818f1b3e9</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-BlackItalic.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_30e8e084800f8951244e2bce42bbd073</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-Bold.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_e1c8d7722296087086a1dfd20da6cf46</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-BoldItalic.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_de261bc40b9287761ba881e66c727576</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-ExtraBold.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_e5e4383da74d1949546273a1978adf2c</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-ExtraBoldItalic.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_1d77a99276ead34ca7f89675583e9a7a</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-ExtraLight.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_cae55f3b08db1c7e2b0e719148efd8b1</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-ExtraLightItalic.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0db0d79765384e09f209687548d3ce2a</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-Italic.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_d29e5474c0fc5f8a114781533224f70e</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-Light.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_aad1f725ebe64b94355b1d85bf5b30a9</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-LightItalic.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_2cff0b6c80a27ab7a724b91ed4e45e27</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-Medium.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_a1acd49c29909b91fb03276faa662a0b</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-MediumItalic.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_09edc4b02593bbe0898e08ad307ff3f4</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-Regular.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_39cd22ef5db122c2e9f66aeb7607fa83</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-SemiBold.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ffbf2cbbea046b8dea9f0452afdc543e</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-SemiBoldItalic.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_fc69e6fa12efa2fecd06d40b01ac8432</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-Thin.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_f2b72d37605faf43931551f0819eec08</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-ThinItalic.ttf</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_1dfbeaf8b73824f50cc0b8d5557b1b72</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\OFL.txt</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_2ab2411ad296c8b8718d816089f60b09</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\..\build\saral.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_4a8921ce76119a1455c5988fb9336bf2</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\..\build\saral.js</FullPath>
+      <IDEState>
+        <CodeFont>Tahoma|8|   |1</CodeFont>
+        <CharFont>Tahoma|8|   |1</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_fe0645bfe6fe9ba05e34851e5607b9ec</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\..\build\saral.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_c296b5df3dc126e219e0173fcbc1baec</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\..\LICENSE.md</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0b36fd74c350feefa2b5fa140f35cadd</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\..\build\hindi.js</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>hindi.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\hindi.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>saral.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\saral.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>korean_10_key_inspired.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\korean_10_key_inspired.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
+      <Filename>inscript_simple.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\inscript_simple.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
+      <Filename>inscript_simple_v2.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\inscript_simple_v2.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU5</ID>
+      <Filename>saral.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\saral.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU6</ID>
+      <Filename>saral.js</Filename>
+      <FileType>.js</FileType>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\build\saral.js</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU7</ID>
+      <Filename>barakhana.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\barakhana.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU8</ID>
+      <Filename>hindi.keyman-touch-layout</Filename>
+      <FileType>.keyman-touch-layout</FileType>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\hindi.keyman-touch-layout</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>

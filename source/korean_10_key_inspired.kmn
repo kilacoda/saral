@@ -1,0 +1,6 @@
+﻿store(&NAME) 'IndiSwipe Korean 10 key inspired'
+store(&TARGETS) 'windows iphone androidphone mobile'
+store(&LAYOUTFILE) 'korean_10_key_inspired.keyman-touch-layout'
+begin Unicode > use(main)
+
+group(main) using keys

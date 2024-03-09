@@ -1,0 +1,1626 @@
+{
+  "tablet": {
+    "font": "Tahoma",
+    "layer": [
+      {
+        "id": "default",
+        "row": [
+          {
+            "id": 1,
+            "key": [
+              {
+                "id": "T_A",
+                "text": "अ"
+              },
+              {
+                "id": "K_W",
+                "text": "w"
+              },
+              {
+                "id": "K_E",
+                "text": "e"
+              },
+              {
+                "id": "K_R",
+                "text": "r"
+              },
+              {
+                "id": "K_T",
+                "text": "t"
+              },
+              {
+                "id": "K_Y",
+                "text": "y"
+              },
+              {
+                "id": "K_U",
+                "text": "u"
+              },
+              {
+                "id": "K_I",
+                "text": "i"
+              },
+              {
+                "id": "K_O",
+                "text": "o"
+              },
+              {
+                "id": "K_P",
+                "text": "p"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "key": [
+              {
+                "id": "K_A",
+                "text": "a",
+                "pad": 70
+              },
+              {
+                "id": "K_S",
+                "text": "s"
+              },
+              {
+                "id": "K_D",
+                "text": "d"
+              },
+              {
+                "id": "K_F",
+                "text": "f"
+              },
+              {
+                "id": "K_G",
+                "text": "g"
+              },
+              {
+                "id": "K_H",
+                "text": "h"
+              },
+              {
+                "id": "K_J",
+                "text": "j"
+              },
+              {
+                "id": "K_K",
+                "text": "k"
+              },
+              {
+                "id": "K_L",
+                "text": "l"
+              },
+              {
+                "id": "T_new_94",
+                "width": 10,
+                "sp": 10
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "key": [
+              {
+                "id": "K_SHIFT",
+                "text": "*Shift*",
+                "width": 110,
+                "sp": 1,
+                "nextlayer": "shift"
+              },
+              {
+                "id": "K_Z",
+                "text": "z"
+              },
+              {
+                "id": "K_X",
+                "text": "x"
+              },
+              {
+                "id": "K_C",
+                "text": "c"
+              },
+              {
+                "id": "K_V",
+                "text": "v"
+              },
+              {
+                "id": "K_B",
+                "text": "b"
+              },
+              {
+                "id": "K_N",
+                "text": "n"
+              },
+              {
+                "id": "K_M",
+                "text": "m"
+              },
+              {
+                "id": "K_PERIOD",
+                "text": ".",
+                "sk": [
+                  {
+                    "text": ",",
+                    "id": "K_COMMA"
+                  },
+                  {
+                    "text": "!",
+                    "id": "K_1",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": "?",
+                    "id": "K_SLASH",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": "'",
+                    "id": "K_QUOTE"
+                  },
+                  {
+                    "text": "\"",
+                    "id": "K_QUOTE",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": "\\",
+                    "id": "K_BKSLASH"
+                  },
+                  {
+                    "text": ":",
+                    "id": "K_COLON",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": ";",
+                    "id": "K_COLON"
+                  }
+                ]
+              },
+              {
+                "id": "K_BKSP",
+                "text": "*BkSp*",
+                "width": 90,
+                "sp": 1
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "key": [
+              {
+                "id": "K_NUMLOCK",
+                "text": "*123*",
+                "width": 140,
+                "sp": 1,
+                "nextlayer": "numeric"
+              },
+              {
+                "id": "K_LOPT",
+                "text": "*Menu*",
+                "width": 120,
+                "sp": 1
+              },
+              {
+                "id": "K_SPACE",
+                "text": "",
+                "width": 630,
+                "sp": 0
+              },
+              {
+                "id": "K_ENTER",
+                "text": "*Enter*",
+                "width": 140,
+                "sp": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shift",
+        "row": [
+          {
+            "id": 1,
+            "key": [
+              {
+                "id": "K_Q",
+                "text": "Q"
+              },
+              {
+                "id": "K_W",
+                "text": "W"
+              },
+              {
+                "id": "K_E",
+                "text": "E"
+              },
+              {
+                "id": "K_R",
+                "text": "R"
+              },
+              {
+                "id": "K_T",
+                "text": "T"
+              },
+              {
+                "id": "K_Y",
+                "text": "Y"
+              },
+              {
+                "id": "K_U",
+                "text": "U"
+              },
+              {
+                "id": "K_I",
+                "text": "I"
+              },
+              {
+                "id": "K_O",
+                "text": "O"
+              },
+              {
+                "id": "K_P",
+                "text": "P"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "key": [
+              {
+                "id": "K_A",
+                "text": "A",
+                "pad": 70
+              },
+              {
+                "id": "K_S",
+                "text": "S"
+              },
+              {
+                "id": "K_D",
+                "text": "D"
+              },
+              {
+                "id": "K_F",
+                "text": "F"
+              },
+              {
+                "id": "K_G",
+                "text": "G"
+              },
+              {
+                "id": "K_H",
+                "text": "H"
+              },
+              {
+                "id": "K_J",
+                "text": "J"
+              },
+              {
+                "id": "K_K",
+                "text": "K"
+              },
+              {
+                "id": "K_L",
+                "text": "L"
+              },
+              {
+                "sp": 10,
+                "width": 10
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "key": [
+              {
+                "id": "K_SHIFT",
+                "text": "*Shift*",
+                "width": 110,
+                "sp": 2,
+                "nextlayer": "default"
+              },
+              {
+                "id": "K_Z",
+                "text": "Z"
+              },
+              {
+                "id": "K_X",
+                "text": "X"
+              },
+              {
+                "id": "K_C",
+                "text": "C"
+              },
+              {
+                "id": "K_V",
+                "text": "V"
+              },
+              {
+                "id": "K_B",
+                "text": "B"
+              },
+              {
+                "id": "K_N",
+                "text": "N"
+              },
+              {
+                "id": "K_M",
+                "text": "M"
+              },
+              {
+                "id": "K_PERIOD",
+                "text": ".",
+                "layer": "default",
+                "sk": [
+                  {
+                    "text": ",",
+                    "id": "K_COMMA",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "!",
+                    "id": "K_1",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": "?",
+                    "id": "K_SLASH",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": "'",
+                    "id": "K_QUOTE",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "\"",
+                    "id": "K_QUOTE",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": "\\",
+                    "id": "K_BKSLASH",
+                    "layer": "default"
+                  },
+                  {
+                    "text": ":",
+                    "id": "K_COLON",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": ";",
+                    "id": "K_COLON",
+                    "layer": "default"
+                  }
+                ]
+              },
+              {
+                "id": "K_BKSP",
+                "text": "*BkSp*",
+                "width": 90,
+                "sp": 1
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "key": [
+              {
+                "id": "K_NUMLOCK",
+                "text": "*123*",
+                "width": 140,
+                "sp": 1,
+                "nextlayer": "numeric"
+              },
+              {
+                "id": "K_LOPT",
+                "text": "*Menu*",
+                "width": 120,
+                "sp": 1
+              },
+              {
+                "id": "K_SPACE",
+                "text": "",
+                "width": 630,
+                "sp": 0
+              },
+              {
+                "id": "K_ENTER",
+                "text": "*Enter*",
+                "width": 140,
+                "sp": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "numeric",
+        "row": [
+          {
+            "id": 1,
+            "key": [
+              {
+                "id": "K_1",
+                "text": "1"
+              },
+              {
+                "id": "K_2",
+                "text": "2"
+              },
+              {
+                "id": "K_3",
+                "text": "3"
+              },
+              {
+                "id": "K_4",
+                "text": "4"
+              },
+              {
+                "id": "K_5",
+                "text": "5"
+              },
+              {
+                "id": "K_6",
+                "text": "6"
+              },
+              {
+                "id": "K_7",
+                "text": "7"
+              },
+              {
+                "id": "K_8",
+                "text": "8"
+              },
+              {
+                "id": "K_9",
+                "text": "9"
+              },
+              {
+                "id": "K_0",
+                "text": "0"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "key": [
+              {
+                "id": "K_4",
+                "text": "$",
+                "layer": "shift",
+                "pad": 70
+              },
+              {
+                "id": "K_2",
+                "text": "@",
+                "layer": "shift"
+              },
+              {
+                "id": "K_3",
+                "text": "#",
+                "layer": "shift"
+              },
+              {
+                "id": "K_5",
+                "text": "%",
+                "layer": "shift"
+              },
+              {
+                "id": "K_7",
+                "text": "&",
+                "layer": "shift"
+              },
+              {
+                "id": "K_HYPHEN",
+                "text": "_",
+                "layer": "shift"
+              },
+              {
+                "id": "K_EQUAL",
+                "text": "=",
+                "layer": "default"
+              },
+              {
+                "id": "K_BKSLASH",
+                "text": "|",
+                "layer": "shift"
+              },
+              {
+                "id": "K_BKSLASH",
+                "text": "\\",
+                "layer": "default"
+              },
+              {
+                "text": "",
+                "width": 10,
+                "sp": 10
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "key": [
+              {
+                "id": "K_SHIFT",
+                "text": "*Shift*",
+                "width": 110,
+                "sp": 1
+              },
+              {
+                "id": "K_LBRKT",
+                "text": "[",
+                "sk": [
+                  {
+                    "id": "U_00AB",
+                    "text": "«"
+                  },
+                  {
+                    "id": "K_COMMA",
+                    "text": "<",
+                    "layer": "shift"
+                  },
+                  {
+                    "id": "K_LBRKT",
+                    "text": "{",
+                    "layer": "shift"
+                  }
+                ]
+              },
+              {
+                "id": "K_9",
+                "text": "(",
+                "layer": "shift"
+              },
+              {
+                "id": "K_0",
+                "text": ")",
+                "layer": "shift"
+              },
+              {
+                "id": "K_RBRKT",
+                "text": "]",
+                "sk": [
+                  {
+                    "id": "U_00BB",
+                    "text": "»"
+                  },
+                  {
+                    "id": "K_PERIOD",
+                    "text": ">",
+                    "layer": "shift"
+                  },
+                  {
+                    "id": "K_RBRKT",
+                    "text": "}",
+                    "layer": "shift"
+                  }
+                ]
+              },
+              {
+                "id": "K_EQUAL",
+                "text": "+",
+                "layer": "shift"
+              },
+              {
+                "id": "K_HYPHEN",
+                "text": "-",
+                "layer": "default"
+              },
+              {
+                "id": "K_8",
+                "text": "*",
+                "layer": "shift"
+              },
+              {
+                "id": "K_SLASH",
+                "text": "/",
+                "layer": "default"
+              },
+              {
+                "id": "K_BKSP",
+                "text": "*BkSp*",
+                "width": 90,
+                "sp": 1
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "key": [
+              {
+                "id": "K_LOWER",
+                "text": "*abc*",
+                "width": 140,
+                "sp": 1,
+                "nextlayer": "default"
+              },
+              {
+                "id": "K_LOPT",
+                "text": "*Menu*",
+                "width": 120,
+                "sp": 1
+              },
+              {
+                "id": "K_SPACE",
+                "text": "",
+                "width": 630,
+                "sp": 0
+              },
+              {
+                "id": "K_ENTER",
+                "text": "*Enter*",
+                "width": 140,
+                "sp": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fontsize": ""
+  },
+  "phone": {
+    "font": "Hind",
+    "layer": [
+      {
+        "id": "default",
+        "row": [
+          {
+            "id": 1,
+            "key": [
+              {
+                "id": "K_LEFT",
+                "text": "←"
+              },
+              {
+                "id": "U_0915",
+                "text": "क",
+                "flick": {
+                  "w": {
+                    "text": "ख",
+                    "id": "U_0916"
+                  },
+                  "n": {
+                    "text": "ग",
+                    "id": "U_0917"
+                  },
+                  "e": {
+                    "text": "घ",
+                    "id": "U_0918"
+                  },
+                  "s": {
+                    "text": "ङ",
+                    "id": "U_0919"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "ख",
+                    "id": "U_0916"
+                  },
+                  {
+                    "text": "ग",
+                    "id": "U_0917"
+                  },
+                  {
+                    "text": "घ",
+                    "id": "U_0918"
+                  },
+                  {
+                    "text": "ङ",
+                    "id": "U_0919"
+                  }
+                ]
+              },
+              {
+                "id": "U_091A",
+                "text": "च",
+                "flick": {
+                  "w": {
+                    "text": "छ",
+                    "id": "U_091B"
+                  },
+                  "n": {
+                    "text": "ज",
+                    "id": "U_091C"
+                  },
+                  "e": {
+                    "text": "झ",
+                    "id": "U_091D"
+                  },
+                  "s": {
+                    "text": "ञ",
+                    "id": "U_091E"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "छ",
+                    "id": "U_091B"
+                  },
+                  {
+                    "text": "ज",
+                    "id": "U_091C"
+                  },
+                  {
+                    "text": "झ",
+                    "id": "U_091D"
+                  },
+                  {
+                    "text": "ञ",
+                    "id": "U_091E"
+                  }
+                ]
+              },
+              {
+                "id": "U_091F",
+                "text": "ट",
+                "flick": {
+                  "n": {
+                    "text": "ड",
+                    "id": "U_0921"
+                  },
+                  "w": {
+                    "text": "ठ",
+                    "id": "U_0920"
+                  },
+                  "s": {
+                    "text": "ण",
+                    "id": "U_0923"
+                  },
+                  "e": {
+                    "text": "ढ",
+                    "id": "U_0922"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "ठ",
+                    "id": "U_0920"
+                  },
+                  {
+                    "text": "ड",
+                    "id": "U_0921"
+                  },
+                  {
+                    "text": "ढ",
+                    "id": "U_0922"
+                  },
+                  {
+                    "text": "ण",
+                    "id": "U_0923"
+                  }
+                ]
+              },
+              {
+                "id": "K_BKSP",
+                "text": "*BkSp*",
+                "sp": 1
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "key": [
+              {
+                "id": "K_RIGHT",
+                "text": "→"
+              },
+              {
+                "id": "U_0924",
+                "text": "त",
+                "flick": {
+                  "w": {
+                    "text": "थ",
+                    "id": "U_0925"
+                  },
+                  "n": {
+                    "text": "द",
+                    "id": "U_0926"
+                  },
+                  "e": {
+                    "text": "ध",
+                    "id": "U_0927"
+                  },
+                  "s": {
+                    "text": "न",
+                    "id": "U_0928"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "थ",
+                    "id": "U_0925"
+                  },
+                  {
+                    "text": "द",
+                    "id": "U_0926"
+                  },
+                  {
+                    "text": "ध",
+                    "id": "U_0927"
+                  },
+                  {
+                    "text": "न",
+                    "id": "U_0928"
+                  }
+                ]
+              },
+              {
+                "id": "U_0905",
+                "text": "अ",
+                "flick": {
+                  "n": {
+                    "text": "उ",
+                    "id": "U_0909"
+                  },
+                  "e": {
+                    "text": "ए",
+                    "id": "U_090F"
+                  },
+                  "s": {
+                    "text": "ओ",
+                    "id": "U_0913"
+                  },
+                  "w": {
+                    "text": "इ",
+                    "id": "U_0907"
+                  },
+                  "nw": {
+                    "text": "ऋ",
+                    "id": "U_090B"
+                  },
+                  "ne": {
+                    "text": "ऑ",
+                    "id": "U_0911"
+                  }
+                },
+                "multitap": [
+                  {
+                    "id": "U_0907"
+                  },
+                  {
+                    "id": "U_0909"
+                  },
+                  {
+                    "id": "U_090F"
+                  },
+                  {
+                    "id": "U_0913"
+                  },
+                  {
+                    "text": "ऑ",
+                    "id": "U_0911"
+                  },
+                  {
+                    "text": "ऋ",
+                    "id": "U_090B"
+                  }
+                ]
+              },
+              {
+                "id": "U_092A",
+                "text": "प",
+                "flick": {
+                  "w": {
+                    "text": "फ",
+                    "id": "U_092B"
+                  },
+                  "n": {
+                    "text": "ब",
+                    "id": "U_092C"
+                  },
+                  "e": {
+                    "text": "भ",
+                    "id": "U_092D"
+                  },
+                  "s": {
+                    "text": "म",
+                    "id": "U_092E"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "फ",
+                    "id": "U_092B"
+                  },
+                  {
+                    "text": "ब",
+                    "id": "U_092C"
+                  },
+                  {
+                    "text": "भ",
+                    "id": "U_092D"
+                  },
+                  {
+                    "text": "म",
+                    "id": "U_092E"
+                  }
+                ]
+              },
+              {
+                "id": "K_ENTER",
+                "text": "*Enter*",
+                "sp": 1
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "key": [
+              {
+                "id": "K_NUMLOCK",
+                "text": "*123*",
+                "sp": 1,
+                "nextlayer": "numeric"
+              },
+              {
+                "id": "U_092F",
+                "text": "य",
+                "flick": {
+                  "w": {
+                    "text": "र",
+                    "id": "U_0930"
+                  },
+                  "n": {
+                    "text": "ल",
+                    "id": "U_0932"
+                  },
+                  "e": {
+                    "text": "व",
+                    "id": "U_0935"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "र",
+                    "id": "U_0930"
+                  },
+                  {
+                    "text": "ल",
+                    "id": "U_0932"
+                  },
+                  {
+                    "text": "व",
+                    "id": "U_0935"
+                  }
+                ]
+              },
+              {
+                "id": "U_0936",
+                "text": "श",
+                "flick": {
+                  "w": {
+                    "text": "ष",
+                    "id": "U_0937"
+                  },
+                  "n": {
+                    "text": "स",
+                    "id": "U_0938"
+                  },
+                  "e": {
+                    "text": "ह",
+                    "id": "U_0939"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "ष",
+                    "id": "U_0937"
+                  },
+                  {
+                    "text": "स",
+                    "id": "U_0938"
+                  },
+                  {
+                    "text": "ह",
+                    "id": "U_0939"
+                  }
+                ]
+              },
+              {
+                "id": "T_KSHA",
+                "text": "क्ष",
+                "flick": {
+                  "w": {
+                    "text": "त्र",
+                    "id": "T_TRA"
+                  },
+                  "n": {
+                    "text": "ज्ञ",
+                    "id": "T_GYA"
+                  },
+                  "e": {
+                    "text": "श्र",
+                    "id": "T_SHRA"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "त्र",
+                    "id": "T_TRA"
+                  },
+                  {
+                    "text": "ज्ञ",
+                    "id": "T_GYA"
+                  },
+                  {
+                    "text": "श्र",
+                    "id": "T_SHRA"
+                  }
+                ]
+              },
+              {
+                "id": "K_SPACE"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "key": [
+              {
+                "id": "K_LOPT",
+                "text": "*Menu*",
+                "sp": 1
+              },
+              {
+                "id": "U_0902",
+                "text": "ं",
+                "flick": {
+                  "w": {
+                    "text": "ः",
+                    "id": "U_0903"
+                  },
+                  "n": {
+                    "text": "ँ",
+                    "id": "U_0901"
+                  },
+                  "e": {
+                    "text": "ॅ",
+                    "id": "U_0945"
+                  },
+                  "s": {
+                    "text": "़",
+                    "id": "U_093C"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "़",
+                    "id": "U_093C"
+                  },
+                  {
+                    "text": "ः",
+                    "id": "U_0903"
+                  },
+                  {
+                    "text": "ँ",
+                    "id": "U_0901"
+                  },
+                  {
+                    "text": "ॅ",
+                    "id": "U_0945"
+                  }
+                ]
+              },
+              {
+                "id": "U_094D",
+                "text": "्",
+                "sp": 0,
+                "flick": {
+                  "n": {
+                    "text": "॰",
+                    "id": "U_0970"
+                  },
+                  "w": {
+                    "text": "(",
+                    "id": "U_0028"
+                  },
+                  "e": {
+                    "text": ")",
+                    "id": "U_0029"
+                  },
+                  "s": {
+                    "text": "-",
+                    "id": "U_002D"
+                  }
+                },
+                "multitap": [
+                  {
+                    "text": "॰",
+                    "id": "U_0970"
+                  }
+                ]
+              },
+              {
+                "id": "U_0964",
+                "text": "।",
+                "flick": {
+                  "w": {
+                    "text": "?",
+                    "id": "U_003F"
+                  },
+                  "n": {
+                    "text": "!",
+                    "id": "U_0021"
+                  },
+                  "e": {
+                    "text": ",",
+                    "id": "U_002C"
+                  },
+                  "s": {
+                    "text": ".",
+                    "id": "U_002E"
+                  }
+                },
+                "multitap": [
+                  {
+                    "id": "U_003F"
+                  },
+                  {
+                    "id": "U_0021"
+                  },
+                  {
+                    "id": "U_002C"
+                  },
+                  {
+                    "id": "U_002E"
+                  },
+                  {
+                    "text": "॥",
+                    "id": "U_0965"
+                  }
+                ]
+              },
+              {
+                "id": "T_new_618",
+                "text": "अ↔आ",
+                "sp": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "shift",
+        "row": [
+          {
+            "id": 1,
+            "key": [
+              {
+                "id": "K_Q",
+                "text": "Q"
+              },
+              {
+                "id": "K_W",
+                "text": "W"
+              },
+              {
+                "id": "K_E",
+                "text": "E"
+              },
+              {
+                "id": "K_R",
+                "text": "R"
+              },
+              {
+                "id": "K_T",
+                "text": "T"
+              },
+              {
+                "id": "K_Y",
+                "text": "Y"
+              },
+              {
+                "id": "K_U",
+                "text": "U"
+              },
+              {
+                "id": "K_I",
+                "text": "I"
+              },
+              {
+                "id": "K_O",
+                "text": "O"
+              },
+              {
+                "id": "K_P",
+                "text": "P"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "key": [
+              {
+                "id": "K_A",
+                "text": "A",
+                "pad": 50
+              },
+              {
+                "id": "K_S",
+                "text": "S"
+              },
+              {
+                "id": "K_D",
+                "text": "D"
+              },
+              {
+                "id": "K_F",
+                "text": "F"
+              },
+              {
+                "id": "K_G",
+                "text": "G"
+              },
+              {
+                "id": "K_H",
+                "text": "H"
+              },
+              {
+                "id": "K_J",
+                "text": "J"
+              },
+              {
+                "id": "K_K",
+                "text": "K"
+              },
+              {
+                "id": "K_L",
+                "text": "L"
+              },
+              {
+                "id": "T_new_246",
+                "text": "",
+                "width": 10,
+                "sp": 10
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "key": [
+              {
+                "id": "K_SHIFT",
+                "text": "*Shift*",
+                "sp": 2,
+                "nextlayer": "default"
+              },
+              {
+                "id": "K_Z",
+                "text": "Z"
+              },
+              {
+                "id": "K_X",
+                "text": "X"
+              },
+              {
+                "id": "K_C",
+                "text": "C"
+              },
+              {
+                "id": "K_V",
+                "text": "V"
+              },
+              {
+                "id": "K_B",
+                "text": "B"
+              },
+              {
+                "id": "K_N",
+                "text": "N"
+              },
+              {
+                "id": "K_M",
+                "text": "M"
+              },
+              {
+                "id": "K_PERIOD",
+                "text": ".",
+                "layer": "default",
+                "sk": [
+                  {
+                    "text": ",",
+                    "id": "K_COMMA",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "!",
+                    "id": "K_1",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": "?",
+                    "id": "K_SLASH",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": "'",
+                    "id": "K_QUOTE",
+                    "layer": "default"
+                  },
+                  {
+                    "text": "\"",
+                    "id": "K_QUOTE",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": "\\",
+                    "id": "K_BKSLASH",
+                    "layer": "default"
+                  },
+                  {
+                    "text": ":",
+                    "id": "K_COLON",
+                    "layer": "shift"
+                  },
+                  {
+                    "text": ";",
+                    "id": "K_COLON",
+                    "layer": "default"
+                  }
+                ]
+              },
+              {
+                "id": "K_BKSP",
+                "text": "*BkSp*",
+                "sp": 1
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "key": [
+              {
+                "id": "K_NUMLOCK",
+                "text": "*123*",
+                "width": 150,
+                "sp": 1,
+                "nextlayer": "numeric"
+              },
+              {
+                "id": "K_LOPT",
+                "text": "*Menu*",
+                "width": 120,
+                "sp": 1
+              },
+              {
+                "id": "K_SPACE",
+                "text": "",
+                "width": 610,
+                "sp": 0
+              },
+              {
+                "id": "K_ENTER",
+                "text": "*Enter*",
+                "width": 150,
+                "sp": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "numeric",
+        "row": [
+          {
+            "id": 1,
+            "key": [
+              {
+                "id": "K_1",
+                "text": "1"
+              },
+              {
+                "id": "K_2",
+                "text": "2"
+              },
+              {
+                "id": "K_3",
+                "text": "3"
+              },
+              {
+                "id": "K_4",
+                "text": "4"
+              },
+              {
+                "id": "K_5",
+                "text": "5"
+              },
+              {
+                "id": "K_6",
+                "text": "6"
+              },
+              {
+                "id": "K_7",
+                "text": "7"
+              },
+              {
+                "id": "K_8",
+                "text": "8"
+              },
+              {
+                "id": "K_9",
+                "text": "9"
+              },
+              {
+                "id": "K_0",
+                "text": "0"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "key": [
+              {
+                "id": "K_4",
+                "text": "$",
+                "pad": 50,
+                "layer": "shift"
+              },
+              {
+                "id": "K_2",
+                "text": "@",
+                "layer": "shift"
+              },
+              {
+                "id": "K_3",
+                "text": "#",
+                "layer": "shift"
+              },
+              {
+                "id": "K_5",
+                "text": "%",
+                "layer": "shift"
+              },
+              {
+                "id": "K_7",
+                "text": "&",
+                "layer": "shift"
+              },
+              {
+                "id": "K_HYPHEN",
+                "text": "_",
+                "layer": "shift"
+              },
+              {
+                "id": "K_EQUAL",
+                "text": "=",
+                "layer": "default"
+              },
+              {
+                "id": "K_BKSLASH",
+                "text": "|",
+                "layer": "shift"
+              },
+              {
+                "id": "K_BKSLASH",
+                "text": "\\",
+                "layer": "default"
+              },
+              {
+                "id": "T_new_213",
+                "text": "",
+                "width": 10,
+                "sp": 10
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "key": [
+              {
+                "id": "K_LBRKT",
+                "text": "[",
+                "pad": 110,
+                "sk": [
+                  {
+                    "id": "U_00AB",
+                    "text": "«"
+                  },
+                  {
+                    "id": "K_COMMA",
+                    "text": "<",
+                    "layer": "shift"
+                  },
+                  {
+                    "id": "K_LBRKT",
+                    "text": "{",
+                    "layer": "shift"
+                  }
+                ]
+              },
+              {
+                "id": "K_9",
+                "text": "(",
+                "layer": "shift"
+              },
+              {
+                "id": "K_0",
+                "text": ")",
+                "layer": "shift"
+              },
+              {
+                "id": "K_RBRKT",
+                "text": "]",
+                "sk": [
+                  {
+                    "id": "U_00BB",
+                    "text": "»"
+                  },
+                  {
+                    "id": "K_PERIOD",
+                    "text": ">",
+                    "layer": "shift"
+                  },
+                  {
+                    "id": "K_RBRKT",
+                    "text": "}",
+                    "layer": "shift"
+                  }
+                ]
+              },
+              {
+                "id": "K_EQUAL",
+                "text": "+",
+                "layer": "shift"
+              },
+              {
+                "id": "K_HYPHEN",
+                "text": "-"
+              },
+              {
+                "id": "K_8",
+                "text": "*",
+                "layer": "shift"
+              },
+              {
+                "id": "K_SLASH",
+                "text": "/"
+              },
+              {
+                "id": "K_BKSP",
+                "text": "*BkSp*",
+                "width": 100,
+                "sp": 1
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "key": [
+              {
+                "id": "K_LOWER",
+                "text": "*abc*",
+                "width": 150,
+                "sp": 1,
+                "nextlayer": "default"
+              },
+              {
+                "id": "K_LOPT",
+                "text": "*Menu*",
+                "width": 120,
+                "sp": 1
+              },
+              {
+                "id": "K_SPACE",
+                "text": "",
+                "width": 610,
+                "sp": 0
+              },
+              {
+                "id": "K_ENTER",
+                "text": "*Enter*",
+                "width": 150,
+                "sp": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fontsize": ""
+  }
+}

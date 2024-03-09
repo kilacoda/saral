@@ -1,0 +1,14 @@
+﻿c saral generated from template at 2024-02-17 22:05:28
+c with name "Saral"
+store(&NAME) 'Saral'
+store(&COPYRIGHT) 'Copyright © Raghav Goel'
+store(&VERSION) '10.0'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'any'
+store(&BITMAP) 'saral.ico'
+store(&VISUALKEYBOARD) 'saral.kvks'
+store(&LAYOUTFILE) 'saral.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+group(main) using keys
