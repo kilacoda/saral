@@ -12,6 +12,10 @@
   </ViewState>
   <FileStates>
     <FileState>
+      <ID>id_a084b794bc0759e7a6b77810e01874f2</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\.gitignore</FullPath>
+    </FileState>
+    <FileState>
       <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
       <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\HISTORY.md</FullPath>
     </FileState>
@@ -57,9 +61,9 @@
       <IDEState>
         <LayoutDisplay102Key>0</LayoutDisplay102Key>
         <DebugDefaultFont>1</DebugDefaultFont>
-        <DebugFont>Consolas|-9|   |0</DebugFont>
-        <CodeFont>Consolas|-9|   |0</CodeFont>
-        <CharFont>Consolas|-9|   |0</CharFont>
+        <DebugFont>Cascadia Code PL|11|   |0</DebugFont>
+        <CodeFont>Cascadia Code PL|10|   |0</CodeFont>
+        <CharFont>Cascadia Code PL|11|   |0</CharFont>
       </IDEState>
       <Debug>True</Debug>
     </FileState>
@@ -160,6 +164,10 @@
       <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\welcome.htm</FullPath>
     </FileState>
     <FileState>
+      <ID>id_0b36fd74c350feefa2b5fa140f35cadd</ID>
+      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\..\build\hindi.js</FullPath>
+    </FileState>
+    <FileState>
       <ID>id_1729a670ab091daace3fda4cfde0f77c</ID>
       <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\NotoSans-Black.ttf</FullPath>
     </FileState>
@@ -242,10 +250,6 @@
     <FileState>
       <ID>id_4a8921ce76119a1455c5988fb9336bf2</ID>
       <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\..\build\saral.js</FullPath>
-      <IDEState>
-        <CodeFont>Tahoma|8|   |1</CodeFont>
-        <CharFont>Tahoma|8|   |1</CharFont>
-      </IDEState>
     </FileState>
     <FileState>
       <ID>id_fe0645bfe6fe9ba05e34851e5607b9ec</ID>
@@ -254,10 +258,6 @@
     <FileState>
       <ID>id_c296b5df3dc126e219e0173fcbc1baec</ID>
       <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\..\LICENSE.md</FullPath>
-    </FileState>
-    <FileState>
-      <ID>id_0b36fd74c350feefa2b5fa140f35cadd</ID>
-      <FullPath>C:\CodeProjects\Keyboards\indiswipe_KM17\saral\source\..\build\hindi.js</FullPath>
     </FileState>
   </FileStates>
   <MRU>
