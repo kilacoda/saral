@@ -16,11 +16,11 @@ The overall project is named "Saral" (सरल) which means "simple" in Hindi, 
 
 Installation - Barakhana
 -------------------------
-Barakhana depends upon flick and multitap functionality which is only availble in Keyman 17.0 and above, which is not yet a stable release as of this writing (check if it is on https://status.keyman.com/).
+Barakhana depends upon flick and multitap functionality which is only availble in Keyman 17.0 and above.
 
-- To download and use the keyboard as of now, you will need to use a pre-release version of Keyman, which can be found at https://keyman.com/downloads/pre-release.
+- Download a Keyman version >=17.0 from  https://keyman.com/downloads/.
 
-- Then, download the `.kmp` file from the [releases](https://github.com/kilacoda/saral/releases) page.
+- Then, download the latest `.kmp` file from the [releases](https://github.com/kilacoda/saral/releases) page.
 
 - Follow the instructions for [iOS](https://help.keyman.com/products/iphone-and-ipad/current-version/basic/installing-custom-keyboards-dictionaries) or [Android](https://help.keyman.com/products/android/current-version/basic/installing-custom-packages) to set up the keyboard on your mobile device.
 

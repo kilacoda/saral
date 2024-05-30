@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Package>
   <System>
-    <KeymanDeveloperVersion>17.0.283.0</KeymanDeveloperVersion>
+    <KeymanDeveloperVersion>17.0.325.0</KeymanDeveloperVersion>
     <FileVersion>7.0</FileVersion>
   </System>
   <Options>
     <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>readme.htm</ReadMeFile>
+    <WelcomeFile>welcome.htm</WelcomeFile>
     <MSIFileName></MSIFileName>
     <MSIOptions></MSIOptions>
     <FollowKeyboardVersion/>
@@ -15,7 +17,7 @@
     <Items/>
   </StartMenu>
   <Info>
-    <Name URL="">Barakhana</Name>
+    <Name URL="">Barakunji</Name>
     <Copyright URL="">© Raghav Goel 2024</Copyright>
     <Author URL="mailto:kilacoda@gmail.com">Raghav Goel</Author>
     <WebSite URL="https://github.com/kilacoda">https://github.com/kilacoda</WebSite>
@@ -47,18 +49,22 @@
       <CopyLocation>0</CopyLocation>
       <FileType>.js</FileType>
     </File>
+    <File>
+      <Name>layout.png</Name>
+      <Description>File layout.png</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.png</FileType>
+    </File>
   </Files>
   <Keyboards>
     <Keyboard>
-      <Name>Barahkhana Hindi</Name>
+      <Name>Barakunji Hindi</Name>
       <ID>hindi</ID>
       <Version>1.0</Version>
       <Languages>
         <Language ID="hi">Hindi</Language>
       </Languages>
-      <Examples/>
     </Keyboard>
   </Keyboards>
-  <RelatedPackages/>
   <Strings/>
 </Package>

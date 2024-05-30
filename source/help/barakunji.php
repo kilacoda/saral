@@ -1,29 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+  $pagename = 'Barakhana Keyboard Help';
+  $pagetitle = $pagename;
+  require_once('header.php');
+?>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Saral</title>
-  <style type="text/css">
-    p {
-      font: 10pt Tahoma;
-    }
-
-    h1 {
-      font: bold 16pt Tahoma;
-      color: #4444cc;
-      margin-bottom: 2px
-    }
-
-    h2 {
-      font: bold 12pt Tahoma;
-      color: #4444cc;
-    }
-  </style>
-</head>
-
-<body>
 
   <h1>Barakunji (बारहकुंजी)</h1>
   <p>
@@ -44,9 +24,7 @@
   <p><strong>Note:</strong> Barakunji depends upon flick and multitap functionality which is only availble in Keyman
     17.0 and above.</p>
   <h2>Functionality and Usage</h2>
-  <center>
-    <img src="./layout.png" style="height: 75%; width: 75%;">
-  </center>
+  <div id='osk-phone' data-states="default abc_noshift shift numeric"
   <p>Each <em>akshara</em> (syllable) key is equipped with the ability to produce not only the character on the key, but
     3-8 other related characters from its cluster (i.e. <em>varga</em>). This is done by flicking the key in the
     direction of the desired character. For example, flicking the क key to the right will produce ख, flicking it up will
@@ -98,7 +76,3 @@
     is always placed after the consonant, as is the norm in Devanagari.</p>
 
   <p>Copyright © 2024 Raghav Goel</p>
-
-</body>
-
-</html>
